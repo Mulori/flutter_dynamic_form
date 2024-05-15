@@ -1,0 +1,77 @@
+{
+  "campos": [
+    {
+      "nome": "nome_usuario",
+      "titulo": "Nome Completo",
+      "tipo": "TEXTO",
+      "tamanhoMaximo": 50,
+      "mascara": null
+    },
+    {
+      "nome": "email",
+      "titulo": "Email",
+      "tipo": "TEXTO",
+      "tamanhoMaximo": 50,
+      "mascara": null
+    },
+    {
+      "nome": "cpf",
+      "titulo": "CPF",
+      "tipo": "TEXTO",
+      "tamanhoMaximo": 50,
+      "mascara": "###.###.###-##"
+    },
+    {
+      "nome": "idade",
+      "titulo": "Idade",
+      "tipo": "INTEIRO",
+      "tamanhoMaximo": 3,
+      "mascara": null
+    },
+    {
+      "nome": "cidade",
+      "titulo": "Cidade",
+      "tipo": "SELECAO",
+      "opcoes": ["São Paulo", "Rio de Janeiro", "Belo Horizonte"]
+    },
+    {
+      "nome": "termos_aceite",
+      "titulo": "Concorda com os termos?",
+      "tipo": "CHECKBOX",
+      "mascara": null
+    },
+    {
+      "nome": "salario",
+      "titulo": "Salário",
+      "tipo": "DECIMAL",
+      "tamanhoMaximo": 10,
+      "mascara": null
+    },
+    {
+      "nome": "data_nascimento",
+      "titulo": "Data de Nascimento",
+      "tipo": "DATA",
+      "mascara": "##/##/####"
+    },
+    {
+      "nome": "hora_chegada",
+      "titulo": "Hora de Chegada",
+      "tipo": "HORA",
+      "mascara": "##:##"
+    },
+    {
+      "nome": "foto1",
+      "titulo": "Foto do Cachorro",
+      "tipo": "IMAGEM",
+      "opcoes": "camera",
+      "mascara": null
+    },
+    {
+      "nome": "foto2",
+      "titulo": "Foto da Cozinha Planejada",
+      "tipo": "IMAGEM",
+      "opcoes": "camera",
+      "mascara": null
+    }
+  ]
+}
